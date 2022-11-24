@@ -37,9 +37,11 @@ nav {
     background-color: var(--color-terciario);
 }
 nav div {
-    padding: 7px 10px;
     margin: 5px;
     font-size: large;
+}
+nav div a {
+    padding: 7px 10px;
 }
 main {
     margin-top: 3em;
@@ -137,11 +139,6 @@ section {
     justify-content: space-between;
 }
 aside div {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 350px;
-    border: 1px solid rgb(142, 142, 142); */
     margin: 5%;
 }
 div img {
